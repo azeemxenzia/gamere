@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f9fff9"/>
+  <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f9fff9" />
+    <stop offset="100%" stop-color="#f2fff8" />
+  </linearGradient>
+  <rect width="800" height="600" fill="url(#bg-gradient)"/>
+  
+  <!-- Level Title -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#4050a0">Level 2 - Animals</text>
+  
+  <!-- Progress Bar -->
+  <g transform="translate(350, 70)">
+    <rect x="0" y="0" width="100" height="24" rx="12" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+    <text x="50" y="16" font-family="Arial" font-size="14" text-anchor="middle" fill="#4050a0">2 / 4 words found</text>
+  </g>
+  
+  <!-- Word List -->
+  <g transform="translate(200, 110)">
+    <rect x="0" y="0" width="400" height="80" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <text x="200" y="25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Find These Words:</text>
+    <g transform="translate(60, 45)">
+      <!-- Lion - found -->
+      <rect x="0" y="0" width="60" height="24" rx="12" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+      <text x="30" y="16" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#4caf50" text-decoration="line-through">LION</text>
+      
+      <!-- Tiger - found -->
+      <rect x="70" y="0" width="60" height="24" rx="12" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+      <text x="100" y="16" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#4caf50" text-decoration="line-through">TIGER</text>
+      
+      <!-- Bear - not found -->
+      <rect x="140" y="0" width="60" height="24" rx="12" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+      <text x="170" y="16" font-family="Arial" font-size="14" text-anchor="middle" fill="#757575">BEAR</text>
+      
+      <!-- Wolf - not found -->
+      <rect x="210" y="0" width="60" height="24" rx="12" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+      <text x="240" y="16" font-family="Arial" font-size="14" text-anchor="middle" fill="#757575">WOLF</text>
+    </g>
+  </g>
+  
+  <!-- Word Grid - 8x8 -->
+  <g transform="translate(225, 210)">
+    <rect width="350" height="350" rx="8" fill="#e0e0e0" stroke="#757575" stroke-width="2"/>
+    
+    <!-- Grid lines and letters - using smaller cells for 8x8 grid -->
+    <g>
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="43.75" height="43.75" fill="white"/>
+      <text x="21.875" y="26" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">W</text>
+      
+      <rect x="43.75" y="0" width="43.75" height="43.75" fill="white"/>
+      <text x="65.625" y="26" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Q</text>
+      
+      <rect x="87.5" y="0" width="43.75" height="43.75" fill="white"/>
+      <text x="109.375" y="26" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E</text>
+      
+      <rect x="131.25" y="0" width="43.75" height="43.75" fill="white"/>
+      <text x="153.125" y="26" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">T</text>
+      
+      <rect x="175" y="0" width="43.75" height="43.75" fill="white"/>
+      <text x="196.875" y="26" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">L</text>
+      
+      <rect x="218.75" y="0" width="43.75" height="43.75" fill="white"/>
+      <text x="240.625" y="26" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">I</text>
+      
+      <rect x="262.5" y="0" width="43.75" height="43.75" fill="white"/>
+      <text x="284.375" y="26" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">O</text>
+      
+      <rect x="306.25" y="0" width="43.75" height="43.75" fill="white"/>
+      <text x="328.125" y="26" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">N</text>
+      
+      <!-- Row 2 -->
+      <rect x="0" y="43.75" width="43.75" height="43.75" fill="white"/>
+      <text x="21.875" y="69.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <rect x="43.75" y="43.75" width="43.75" height="43.75" fill="white"/>
+      <text x="65.625" y="69.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">S</text>
+      
+      <rect x="87.5" y="43.75" width="43.75" height="43.75" fill="white"/>
+      <text x="109.375" y="69.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">R</text>
+      
+      <rect x="131.25" y="43.75" width="43.75" height="43.75" fill="white"/>
+      <text x="153.125" y="69.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">T</text>
+      
+      <rect x="175" y="43.75" width="43.75" height="43.75" fill="white"/>
+      <text x="196.875" y="69.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">M</text>
+      
+      <rect x="218.75" y="43.75" width="43.75" height="43.75" fill="white"/>
+      <text x="240.625" y="69.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">B</text>
+      
+      <rect x="262.5" y="43.75" width="43.75" height="43.75" fill="white"/>
+      <text x="284.375" y="69.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E</text>
+      
+      <rect x="306.25" y="43.75" width="43.75" height="43.75" fill="white"/>
+      <text x="328.125" y="69.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <!-- Row 3 -->
+      <rect x="0" y="87.5" width="43.75" height="43.75" fill="white"/>
+      <text x="21.875" y="113.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Z</text>
+      
+      <rect x="43.75" y="87.5" width="43.75" height="43.75" fill="white"/>
+      <text x="65.625" y="113.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">X</text>
+      
+      <rect x="87.5" y="87.5" width="43.75" height="43.75" fill="white"/>
+      <text x="109.375" y="113.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">T</text>
+      
+      <rect x="131.25" y="87.5" width="43.75" height="43.75" fill="white"/>
+      <text x="153.125" y="113.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">H</text>
+      
+      <rect x="175" y="87.5" width="43.75" height="43.75" fill="white"/>
+      <text x="196.875" y="113.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">B</text>
+      
+      <rect x="218.75" y="87.5" width="43.75" height="43.75" fill="white"/>
+      <text x="240.625" y="113.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E</text>
+      
+      <rect x="262.5" y="87.5" width="43.75" height="43.75" fill="white"/>
+      <text x="284.375" y="113.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <rect x="306.25" y="87.5" width="43.75" height="43.75" fill="white"/>
+      <text x="328.125" y="113.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">R</text>
+      
+      <!-- Row 4 -->
+      <rect x="0" y="131.25" width="43.75" height="43.75" fill="white"/>
+      <text x="21.875" y="157.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">X</text>
+      
+      <rect x="43.75" y="131.25" width="43.75" height="43.75" fill="white"/>
+      <text x="65.625" y="157.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">C</text>
+      
+      <rect x="87.5" y="131.25" width="43.75" height="43.75" fill="white"/>
+      <text x="109.375" y="157.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">V</text>
+      
+      <rect x="131.25" y="131.25" width="43.75" height="43.75" fill="white"/>
+      <text x="153.125" y="157.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">T</text>
+      
+      <rect x="175" y="131.25" width="43.75" height="43.75" fill="white"/>
+      <text x="196.875" y="157.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">I</text>
+      
+      <rect x="218.75" y="131.25" width="43.75" height="43.75" fill="white"/>
+      <text x="240.625" y="157.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">G</text>
+      
+      <rect x="262.5" y="131.25" width="43.75" height="43.75" fill="white"/>
+      <text x="284.375" y="157.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E</text>
+      
+      <rect x="306.25" y="131.25" width="43.75" height="43.75" fill="white"/>
+      <text x="328.125" y="157.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">R</text>
+      
+      <!-- Row 5 -->
+      <rect x="0" y="175" width="43.75" height="43.75" fill="white"/>
+      <text x="21.875" y="201" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">P</text>
+      
+      <rect x="43.75" y="175" width="43.75" height="43.75" fill="white"/>
+      <text x="65.625" y="201" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">W</text>
+      
+      <rect x="87.5" y="175" width="43.75" height="43.75" fill="white"/>
+      <text x="109.375" y="201" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">O</text>
+      
+      <rect x="131.25" y="175" width="43.75" height="43.75" fill="white"/>
+      <text x="153.125" y="201" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">L</text>
+      
+      <rect x="175" y="175" width="43.75" height="43.75" fill="white"/>
+      <text x="196.875" y="201" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">F</text>
+      
+      <rect x="218.75" y="175" width="43.75" height="43.75" fill="white"/>
+      <text x="240.625" y="201" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Y</text>
+      
+      <rect x="262.5" y="175" width="43.75" height="43.75" fill="white"/>
+      <text x="284.375" y="201" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">U</text>
+      
+      <rect x="306.25" y="175" width="43.75" height="43.75" fill="white"/>
+      <text x="328.125" y="201" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">I</text>
+      
+      <!-- Row 6 -->
+      <rect x="0" y="218.75" width="43.75" height="43.75" fill="white"/>
+      <text x="21.875" y="244.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <rect x="43.75" y="218.75" width="43.75" height="43.75" fill="white"/>
+      <text x="65.625" y="244.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">S</text>
+      
+      <rect x="87.5" y="218.75" width="43.75" height="43.75" fill="white"/>
+      <text x="109.375" y="244.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">D</text>
+      
+      <rect x="131.25" y="218.75" width="43.75" height="43.75" fill="white"/>
+      <text x="153.125" y="244.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">F</text>
+      
+      <rect x="175" y="218.75" width="43.75" height="43.75" fill="white"/>
+      <text x="196.875" y="244.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">G</text>
+      
+      <rect x="218.75" y="218.75" width="43.75" height="43.75" fill="white"/>
+      <text x="240.625" y="244.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">H</text>
+      
+      <rect x="262.5" y="218.75" width="43.75" height="43.75" fill="white"/>
+      <text x="284.375" y="244.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">J</text>
+      
+      <rect x="306.25" y="218.75" width="43.75" height="43.75" fill="white"/>
+      <text x="328.125" y="244.75" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">K</text>
+      
+      <!-- Row 7 -->
+      <rect x="0" y="262.5" width="43.75" height="43.75" fill="white"/>
+      <text x="21.875" y="288.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Z</text>
+      
+      <rect x="43.75" y="262.5" width="43.75" height="43.75" fill="white"/>
+      <text x="65.625" y="288.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">X</text>
+      
+      <rect x="87.5" y="262.5" width="43.75" height="43.75" fill="white"/>
+      <text x="109.375" y="288.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">C</text>
+      
+      <rect x="131.25" y="262.5" width="43.75" height="43.75" fill="white"/>
+      <text x="153.125" y="288.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">V</text>
+      
+      <rect x="175" y="262.5" width="43.75" height="43.75" fill="white"/>
+      <text x="196.875" y="288.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">B</text>
+      
+      <rect x="218.75" y="262.5" width="43.75" height="43.75" fill="white"/>
+      <text x="240.625" y="288.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">N</text>
+      
+      <rect x="262.5" y="262.5" width="43.75" height="43.75" fill="white"/>
+      <text x="284.375" y="288.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">M</text>
+      
+      <rect x="306.25" y="262.5" width="43.75" height="43.75" fill="white"/>
+      <text x="328.125" y="288.5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">L</text>
+      
+      <!-- Row 8 -->
+      <rect x="0" y="306.25" width="43.75" height="43.75" fill="white"/>
+      <text x="21.875" y="332.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Q</text>
+      
+      <rect x="43.75" y="306.25" width="43.75" height="43.75" fill="white"/>
+      <text x="65.625" y="332.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">W</text>
+      
+      <rect x="87.5" y="306.25" width="43.75" height="43.75" fill="white"/>
+      <text x="109.375" y="332.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E</text>
+      
+      <rect x="131.25" y="306.25" width="43.75" height="43.75" fill="white"/>
+      <text x="153.125" y="332.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">R</text>
+      
+      <rect x="175" y="306.25" width="43.75" height="43.75" fill="white"/>
+      <text x="196.875" y="332.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">T</text>
+      
+      <rect x="218.75" y="306.25" width="43.75" height="43.75" fill="white"/>
+      <text x="240.625" y="332.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Y</text>
+      
+      <rect x="262.5" y="306.25" width="43.75" height="43.75" fill="white"/>
+      <text x="284.375" y="332.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">U</text>
+      
+      <rect x="306.25" y="306.25" width="43.75" height="43.75" fill="white"/>
+      <text x="328.125" y="332.25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">I</text>
+    </g>
+    
+    <!-- Highlight for LION - horizontal highlight -->
+    <rect x="218.75" y="0" width="131.25" height="8" fill="#4CAF50" opacity="0.65" rx="4"/>
+    
+    <!-- Highlight for TIGER - vertical-diagonal highlight -->
+    <rect x="175" y="131.25" width="180" height="8" fill="#2196F3" opacity="0.65" rx="4" transform="rotate(90, 175, 131.25)"/>
+  </g>
+  
+  <!-- Mobile Device Frame -->
+  <rect x="50" y="50" width="700" height="500" rx="20" stroke="#ddd" stroke-width="10" fill="none"/>
+  <rect x="390" y="560" width="20" height="20" rx="10" stroke="#ddd" stroke-width="2" fill="white"/>
+</svg> 

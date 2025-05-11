@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f8ff;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.highlight {
+  position: absolute;
+  border-radius: 4px;
+  opacity: 0.65;
+  z-index: 1;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.highlight.red {
+  background-color: #ff5252;
+}
+
+.highlight.green {
+  background-color: #4caf50;
+}
+
+.highlight.blue {
+  background-color: #2196f3;
+}
+
+.highlight.yellow {
+  background-color: #ffc107;
+}
+
+.highlight.purple {
+  background-color: #9c27b0;
+} 

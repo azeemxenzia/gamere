@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f9f9ff"/>
+  <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f9f9ff" />
+    <stop offset="100%" stop-color="#f2f8ff" />
+  </linearGradient>
+  <rect width="800" height="600" fill="url(#bg-gradient)"/>
+  
+  <!-- Level Title -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#4050a0">Level 1 - Fruits</text>
+  
+  <!-- Progress Bar -->
+  <g transform="translate(350, 70)">
+    <rect x="0" y="0" width="100" height="24" rx="12" fill="white" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+    <text x="50" y="16" font-family="Arial" font-size="14" text-anchor="middle" fill="#4050a0">1 / 3 words found</text>
+  </g>
+  
+  <!-- Word List -->
+  <g transform="translate(200, 110)">
+    <rect x="0" y="0" width="400" height="80" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <text x="200" y="25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Find These Words:</text>
+    <g transform="translate(95, 45)">
+      <!-- Apple - found -->
+      <rect x="0" y="0" width="60" height="24" rx="12" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1"/>
+      <text x="30" y="16" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#4caf50" text-decoration="line-through">APPLE</text>
+      
+      <!-- Banana - not found -->
+      <rect x="70" y="0" width="70" height="24" rx="12" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+      <text x="105" y="16" font-family="Arial" font-size="14" text-anchor="middle" fill="#757575">BANANA</text>
+      
+      <!-- Pear - not found -->
+      <rect x="150" y="0" width="60" height="24" rx="12" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+      <text x="180" y="16" font-family="Arial" font-size="14" text-anchor="middle" fill="#757575">PEAR</text>
+    </g>
+  </g>
+  
+  <!-- Word Grid - 6x6 -->
+  <g transform="translate(250, 210)">
+    <rect width="300" height="300" rx="8" fill="#e0e0e0" stroke="#757575" stroke-width="2"/>
+    
+    <!-- Grid lines and letters -->
+    <g>
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="50" height="50" fill="white"/>
+      <text x="25" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <rect x="50" y="0" width="50" height="50" fill="white"/>
+      <text x="75" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">P</text>
+      
+      <rect x="100" y="0" width="50" height="50" fill="white"/>
+      <text x="125" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">P</text>
+      
+      <rect x="150" y="0" width="50" height="50" fill="white"/>
+      <text x="175" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">L</text>
+      
+      <rect x="200" y="0" width="50" height="50" fill="white"/>
+      <text x="225" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">E</text>
+      
+      <rect x="250" y="0" width="50" height="50" fill="white"/>
+      <text x="275" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Q</text>
+      
+      <!-- Row 2 -->
+      <rect x="0" y="50" width="50" height="50" fill="white"/>
+      <text x="25" y="80" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">W</text>
+      
+      <rect x="50" y="50" width="50" height="50" fill="white"/>
+      <text x="75" y="80" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">T</text>
+      
+      <rect x="100" y="50" width="50" height="50" fill="white"/>
+      <text x="125" y="80" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">B</text>
+      
+      <rect x="150" y="50" width="50" height="50" fill="white"/>
+      <text x="175" y="80" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <rect x="200" y="50" width="50" height="50" fill="white"/>
+      <text x="225" y="80" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">N</text>
+      
+      <rect x="250" y="50" width="50" height="50" fill="white"/>
+      <text x="275" y="80" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <!-- Row 3 -->
+      <rect x="0" y="100" width="50" height="50" fill="white"/>
+      <text x="25" y="130" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">E</text>
+      
+      <rect x="50" y="100" width="50" height="50" fill="white"/>
+      <text x="75" y="130" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Y</text>
+      
+      <rect x="100" y="100" width="50" height="50" fill="white"/>
+      <text x="125" y="130" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">N</text>
+      
+      <rect x="150" y="100" width="50" height="50" fill="white"/>
+      <text x="175" y="130" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <rect x="200" y="100" width="50" height="50" fill="white"/>
+      <text x="225" y="130" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">N</text>
+      
+      <rect x="250" y="100" width="50" height="50" fill="white"/>
+      <text x="275" y="130" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <!-- Row 4 -->
+      <rect x="0" y="150" width="50" height="50" fill="white"/>
+      <text x="25" y="180" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">R</text>
+      
+      <rect x="50" y="150" width="50" height="50" fill="white"/>
+      <text x="75" y="180" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">T</text>
+      
+      <rect x="100" y="150" width="50" height="50" fill="white"/>
+      <text x="125" y="180" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">P</text>
+      
+      <rect x="150" y="150" width="50" height="50" fill="white"/>
+      <text x="175" y="180" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">E</text>
+      
+      <rect x="200" y="150" width="50" height="50" fill="white"/>
+      <text x="225" y="180" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+      
+      <rect x="250" y="150" width="50" height="50" fill="white"/>
+      <text x="275" y="180" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">R</text>
+      
+      <!-- Row 5 -->
+      <rect x="0" y="200" width="50" height="50" fill="white"/>
+      <text x="25" y="230" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">U</text>
+      
+      <rect x="50" y="200" width="50" height="50" fill="white"/>
+      <text x="75" y="230" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">I</text>
+      
+      <rect x="100" y="200" width="50" height="50" fill="white"/>
+      <text x="125" y="230" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">O</text>
+      
+      <rect x="150" y="200" width="50" height="50" fill="white"/>
+      <text x="175" y="230" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">P</text>
+      
+      <rect x="200" y="200" width="50" height="50" fill="white"/>
+      <text x="225" y="230" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">L</text>
+      
+      <rect x="250" y="200" width="50" height="50" fill="white"/>
+      <text x="275" y="230" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">K</text>
+      
+      <!-- Row 6 -->
+      <rect x="0" y="250" width="50" height="50" fill="white"/>
+      <text x="25" y="280" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">J</text>
+      
+      <rect x="50" y="250" width="50" height="50" fill="white"/>
+      <text x="75" y="280" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">H</text>
+      
+      <rect x="100" y="250" width="50" height="50" fill="white"/>
+      <text x="125" y="280" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">G</text>
+      
+      <rect x="150" y="250" width="50" height="50" fill="white"/>
+      <text x="175" y="280" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">F</text>
+      
+      <rect x="200" y="250" width="50" height="50" fill="white"/>
+      <text x="225" y="280" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">D</text>
+      
+      <rect x="250" y="250" width="50" height="50" fill="white"/>
+      <text x="275" y="280" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">S</text>
+    </g>
+    
+    <!-- Highlight for APPLE -->
+    <rect x="0" y="0" width="250" height="8" fill="#4CAF50" opacity="0.65" rx="4"/>
+  </g>
+  
+  <!-- Mobile Device Frame -->
+  <rect x="50" y="50" width="700" height="500" rx="20" stroke="#ddd" stroke-width="10" fill="none"/>
+  <rect x="390" y="560" width="20" height="20" rx="10" stroke="#ddd" stroke-width="2" fill="white"/>
+</svg> 

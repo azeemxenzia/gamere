@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f8ff"/>
+  <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#e8f5ff" />
+    <stop offset="100%" stop-color="#f3f6ff" />
+  </linearGradient>
+  <rect width="800" height="600" fill="url(#bg-gradient)"/>
+  
+  <!-- Game Title -->
+  <text x="400" y="100" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="#4050a0">Word Search</text>
+  <text x="400" y="140" font-family="Arial" font-size="20" text-anchor="middle" fill="#576078">Find hidden words in a grid of letters!</text>
+  
+  <!-- Game Logo -->
+  <g transform="translate(300, 170)">
+    <rect width="200" height="200" rx="28" fill="#f3f6ff"/>
+    <g transform="translate(30, 30)">
+      <rect x="0" y="0" width="30" height="30" fill="#E9EFFE" stroke="#9DACC6" stroke-width="2"/>
+      <text x="15" y="20" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4050A0">W</text>
+      <rect x="35" y="0" width="30" height="30" fill="#E9EFFE" stroke="#9DACC6" stroke-width="2"/>
+      <text x="50" y="20" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4050A0">O</text>
+      <rect x="70" y="0" width="30" height="30" fill="#E9EFFE" stroke="#9DACC6" stroke-width="2"/>
+      <text x="85" y="20" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4050A0">R</text>
+      <rect x="105" y="0" width="30" height="30" fill="#E9EFFE" stroke="#9DACC6" stroke-width="2"/>
+      <text x="120" y="20" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4050A0">D</text>
+      
+      <rect x="0" y="35" width="30" height="30" fill="#E9EFFE" stroke="#9DACC6" stroke-width="2"/>
+      <text x="15" y="55" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4050A0">A</text>
+      
+      <rect x="0" y="70" width="30" height="30" fill="#E9EFFE" stroke="#9DACC6" stroke-width="2"/>
+      <text x="15" y="90" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4050A0">T</text>
+      
+      <rect x="35" y="70" width="30" height="30" fill="#E9EFFE" stroke="#9DACC6" stroke-width="2"/>
+      <text x="50" y="90" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4050A0">E</text>
+      
+      <rect x="70" y="70" width="30" height="30" fill="#E9EFFE" stroke="#9DACC6" stroke-width="2"/>
+      <text x="85" y="90" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4050A0">S</text>
+      
+      <rect x="105" y="70" width="30" height="30" fill="#E9EFFE" stroke="#9DACC6" stroke-width="2"/>
+      <text x="120" y="90" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4050A0">T</text>
+      
+      <!-- Highlight for WORD -->
+      <rect x="0" y="0" width="135" height="10" fill="#4CAF50" opacity="0.6"/>
+      <!-- Highlight for SEARCH -->
+      <rect x="70" y="70" width="65" height="10" fill="#2196F3" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Play Button -->
+  <g transform="translate(350, 400)">
+    <rect x="0" y="0" width="100" height="50" rx="25" fill="#4050a0" filter="drop-shadow(0 4px 4px rgba(0,0,0,0.2))"/>
+    <text x="50" y="32" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">PLAY</text>
+  </g>
+  
+  <!-- Instructions -->
+  <g transform="translate(200, 480)">
+    <rect x="0" y="0" width="400" height="100" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <text x="20" y="30" font-family="Arial" font-size="18" font-weight="bold" fill="#4050a0">How to Play:</text>
+    <text x="30" y="55" font-family="Arial" font-size="14" fill="#576078">• Find all words in the grid</text>
+    <text x="30" y="75" font-family="Arial" font-size="14" fill="#576078">• Tap or click and drag to select words</text>
+    <text x="30" y="95" font-family="Arial" font-size="14" fill="#576078">• Words can appear horizontally, vertically or diagonally</text>
+  </g>
+  
+  <!-- Mobile Device Frame -->
+  <rect x="50" y="100" width="700" height="400" rx="20" stroke="#ddd" stroke-width="10" fill="none"/>
+  <rect x="390" y="510" width="20" height="20" rx="10" stroke="#ddd" stroke-width="2" fill="white"/>
+</svg> 
